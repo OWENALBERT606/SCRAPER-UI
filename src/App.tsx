@@ -1,9 +1,9 @@
+"use client";
 import { useState, useEffect } from "react";
 import { scrapeUrl, getCachedUrls, getCachedData, clearCache } from "./api";
 import type { ScrapeResult, Selector } from "./types";
 import TulabeMovies from "./TulabeMovies";
 import LabafilmMovies from "./LabafilmMovies";
-import "./App.css";
 
 type View = "tulabe" | "labafilm" | "scraper";
 

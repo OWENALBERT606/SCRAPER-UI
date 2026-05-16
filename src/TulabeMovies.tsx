@@ -1,3 +1,4 @@
+"use client";
 import { useState, useEffect, useCallback } from "react";
 import type { Movie, Genre, Pagination, Series, SeriesDetail, Episode } from "./tulabe-types";
 import { getMovies, getGenres, getMovieDetail, getSeries, getSeriesDetail, proxyHls } from "./tulabe-api";
